@@ -83,6 +83,7 @@ condor_q
 ```sh
 condor_rm $JOBID
 ```
+- For more advance functions, please refer to the official documentation (condor_tutorial.pdf) available in the directory.
 
 ## Upload and Download Files
 - Upload Files.
@@ -93,7 +94,7 @@ scp ./local/dir/name.file username@castle.isye.gatech.edu:~/remote/dir/
 ```sh
 scp username@castle.isye.gatech.edu:~/remote/dir/name.file ./local/dir/
 ```
-- For more efficient files handling, please see [Cyberduck][1]
+- For efficient files handling, please see [Cyberduck][1].
 
 
 [1]:https://cyberduck.io
